@@ -27,7 +27,7 @@ export default function Contact() {
     >
       <section className="w-full min-h-fit h-fit py-5 px-3 flex gap-4 flex-col justify-start items-center">
         <h2 className="w-[342px] h-[96px] text-4xl font-semibold leading-[48px] text-center">
-          We will be glab to contact you
+          We will be glad to contact you
         </h2>
         <div className="w-60 min-h-fit h-8 rounded grid grid-cols-2 border border-[#3076bb] transition">
           <button onClick={()=> setSwitchDiv("phone")} className={`col-span-1 px-auto py-1 transition-all duration-300 ease-out ${switchDiv == "phone" ? " bg-[#3076bb] text-white ":"bg-white text-inherit"}`}>Phone Number</button>
