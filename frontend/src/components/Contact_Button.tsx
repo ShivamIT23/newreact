@@ -2,7 +2,11 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import ContactModal from "./ContactModal";
 
-export default function Contact_Button() {
+export default function Contact_Button({
+  NotOpen = false,
+}: {
+  NotOpen?: boolean;
+}) {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
@@ -47,7 +51,9 @@ export default function Contact_Button() {
           </g>
         </svg>
       </motion.button>
-      <ContactModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
+      {!NotOpen && (
+        <ContactModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
+      )}
     </>
   );
 }

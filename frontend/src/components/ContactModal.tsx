@@ -18,7 +18,7 @@ export default function ContactModal({
     } else {
       document.body.style.overflowY = "auto";
     }
-  
+
     return () => {
       document.body.style.overflowY = "auto";
     };
@@ -42,6 +42,25 @@ export default function ContactModal({
           onClick={(e) => e.stopPropagation()}
           className="w-full bg-white max-w-lg rounded-[30px] min-h-fit h-fit py-5 px-3 flex gap-4 flex-col justify-start items-center pt-14 relative"
         >
+            <div onClick={onClose} className=" cursor-pointer w-6 flex justify-center items-center h-6 absolute top-0 right-0 mt-5 mr-5">
+               <svg
+            width="9"
+            height="8"
+            viewBox="0 0 9 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.49998 6.99998L4.50001 4.00001M4.50001 4.00001L1.5 1M4.50001 4.00001L7.50002 1M4.50001 4.00001L1.5 7.00002"
+              stroke="#3076BB"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg> 
+            </div>
+          
+
           <h2 className="w-[342px] h-[96px] text-4xl font-semibold leading-[48px] text-center">
             We will be glab to contact you
           </h2>
@@ -105,7 +124,7 @@ export default function ContactModal({
               </AnimatePresence>
             </div>
           </div>
-          <Contact_Button />
+          <Contact_Button NotOpen={true} />
         </motion.section>
         {/* </motion.div> */}
       </motion.div>
