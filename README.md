@@ -1,2 +1,2 @@
 # newreact
-this is a react project
+this is a react Demo project
