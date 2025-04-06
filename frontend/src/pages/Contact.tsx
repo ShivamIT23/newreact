@@ -25,7 +25,7 @@ export default function Contact() {
       }}
       className="p-10 pt-24 min-h-fit h-[78vh] w-full relative flex justify-center items-center bg-white"
     >
-      <section className="w-full min-h-fit h-fit py-5 px-3 flex gap-4 flex-col justify-start items-center">
+      <section className="w-full min-h-[55vh] h-fit py-5 px-3 flex gap-4 flex-col justify-start items-center">
         <h2 className="w-[342px] h-[96px] text-4xl font-semibold leading-[48px] text-center">
           We will be glad to contact you
         </h2>
