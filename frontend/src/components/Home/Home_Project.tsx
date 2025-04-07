@@ -36,7 +36,7 @@ export default function Home_Project() {
           </h5>
         </div>
       </section>
-      <section className="min-h-fit h-[450px] flex flex-col gap-y-28 md:gap-y-20 md:grid grid-cols-3 gap-x-6 xl:gap-x-16 px-6 sm:px-12 lg:px-[5vw] pb-28 md:pb-16 md:py-16">
+      <section className="min-h-[450px] h-fit flex flex-col gap-y-28 md:gap-y-20 md:grid grid-cols-3 gap-x-6 xl:gap-x-16 px-6 sm:px-12 lg:px-[5vw] pb-28 md:pb-16 md:py-16">
         <div className="w-full col-span-2 h-[70%] rounded-xl">
           <div className="w-full rounded-xl relative h-full">
             <img

@@ -6,7 +6,7 @@ import Contact_Button from "../Contact_Button";
 export default function Home_Work() {
   return (
     <>
-    <section className="bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] mx-6 sm:mx-12 rounded-xl pb-16 lg:mx-[5vw] px-[3vw] min-h-fit h-screen">
+    <section className="bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] mx-6  sm:mx-12 rounded-xl pb-16 lg:mx-[5vw] px-[3vw] h-fit min-h-screen">
         <div className="flex w-full flex-col gap-y-4 md:gap-y-0 md:flex-row justify-between mb-10">
           <div className="flex flex-col gap-2 bg-white md:w-[50%]">
             <h3 className="font-bold text-center md:text-start text-6xl">
