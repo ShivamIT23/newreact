@@ -31,9 +31,9 @@ function NavLink({
     return (
       <Link
         to={to}
-        className={`text-[#4F4F4F] py-2 px-4 rounded-md transition-all duration-200 ease-in-out ${
+        className={`text-[#4F4F4F] py-2 px-5 whitespace-nowrap rounded-md transition-all duration-200 ease-in-out ${
           isActive
-            ? "text-blue-700"
+            ? "text-[#3076bb]"
             : "hover:bg-[#3076bb] hover:text-white"
         }`}
       >

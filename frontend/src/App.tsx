@@ -14,6 +14,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import { AnimatePresence } from "framer-motion";
 import SubService from "./pages/SubService";
+import SingleProject from "./pages/SingleProject";
 
 function AppRoutes() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function AppRoutes() {
         <Route path="/services" element={<Services />} />
         <Route path="/services/*" element={<SubService />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/*" element={<SingleProject />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<NotFound />} />
         <Route />

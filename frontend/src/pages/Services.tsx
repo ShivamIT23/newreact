@@ -1,15 +1,12 @@
 import { motion } from "framer-motion";
 import PageShower from "../components/PageShower";
-import ServiceCard from "../components/ServiceCard";
-import {subServicesList} from "../lib/content"
+import Service_Main from "../components/Service_Main";
 
 const slideVariants = {
   initial: { x: "100%", opacity: 0 }, // Start offscreen right
   animate: { x: 0, opacity: 1 }, // Slide into center
-  exit: { x: "-100%", opacity: 0 }, // Slide out to the left
+  exit: {},
 };
-
-
 
 export default function Services() {
   return (
@@ -24,18 +21,12 @@ export default function Services() {
         stiffness: 100,
         damping: 15,
       }}
-      className="p-10 pt-24 min-h-screen relative bg-white px-[101px]"
+      className="p-10 pt-24 min-h-screen relative bg-white md:px-20 lg:px-[101px]"
     >
-      <h2 className="text-5xl font-semibold  text-start">What we offer</h2>
-      <section className="grid grid-cols-3 mt-10 snap-y snap-mandatory gap-y-6 mx-auto">
-        {subServicesList.map((service, index:number)=>{
-          return(
-            <div key={index} className="snap-start col-span-1">
-              <ServiceCard src={service.image} title={service.title} />
-            </div>
-          )
-        })}
-      </section>
+      <h2 className="text-3xl lg:text-5xl font-semibold  text-start">
+        What we offer
+      </h2>
+      <Service_Main />
       <PageShower>services</PageShower>
     </motion.div>
   );

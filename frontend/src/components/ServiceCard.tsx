@@ -20,7 +20,7 @@ export default function ServiceCard({
           border: "2px solid",
           borderImage: "linear-gradient(to bottom, #FFFFFF, #3076BB) 1",
         }}
-        className="w-[95%] h-[80px] text-black font-bold text-3xl flex items-center justify-center absolute bottom-0 rounded-xl bg-white/80 backdrop-blur-xl group-hover:bg-[#3076bb]/25 transition-all duration-300 ease-in-out"
+        className="w-[95%] h-[40px] lg:h-[80px] text-black font-bold text-sm sm:text-xl lg:text-2xl xl:text-3xl flex items-center justify-center absolute bottom-0 rounded-xl bg-white/80 backdrop-blur-xl group-hover:bg-[#3076bb]/25 transition-all duration-300 ease-in-out"
       >
         {title}
       </div>

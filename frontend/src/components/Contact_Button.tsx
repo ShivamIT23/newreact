@@ -22,15 +22,16 @@ export default function Contact_Button({
           damping: 15,
         }}
         onClick={() => setModalOpen(true)}
-        className="bg-[#3076bb] group rounded-md min-w-fit flex items-center w-40 h-12 my-auto origin-right"
+        className="bg-[#3076bb] group rounded-md flex items-center w-40 h-12 my-auto origin-right"
       >
-        <p className="pl-4 pr-2 text-white font-semibold poppins">Contact Us</p>
+        <p className="pl-4 pr-2 text-white text-[16px] font-semibold poppins">Contact Us</p>
         <svg
           width="40"
           height="40"
           viewBox="0 0 40 40"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="block"
         >
           <rect width="40" height="40" rx="2" fill="white" />
           <g className="transition-transform duration-300 origin-center group-hover:scale-x-[-1]">
