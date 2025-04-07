@@ -45,7 +45,7 @@ export default function Services() {
     >
       <h2 className="text-5xl font-semibold text-start">What we offer</h2>
       <section className="xl:grid lg:grid-cols-5 mt-10 gap-4 mx-auto items-center  mb-12">
-        <div className="col-span-3 mb-10 xl:mb-0 h-[110%] flex items-center">
+        <div className="col-span-3 mt-20 mb-10 xl:mb-0 h-[110%] flex items-start">
           <img
             className="w-full h-[75%] object-cover rounded-[24px] shadow-md"
             src={detail.image}
@@ -53,7 +53,7 @@ export default function Services() {
           />
         </div>
         <div className="col-span-2">
-          <p className="font-normal mb-6 xl:mb-0 lg:text-lg leading-[140%] text-black">
+          <p className="font-normal mb-6 -mt-6 xl:mb-0 lg:text-lg leading-[140%] text-black">
             Midas Touch—where every project becomes a masterpiece. With
             precision craftsmanship and creative flair, we elevate homes,
             offices, and lives. From concept to completion, our passion shines

@@ -34,7 +34,7 @@ export default function About() {
           />
         </div>
         <div className="col-span-2">
-          <p className="font-normal mb-6 xl:mb-0 lg:text-lg leading-[140%] text-black">
+          <p className="font-normal mb-6 -mt-6 xl:mb-0 lg:text-lg leading-[140%] text-black">
             Midas Touch—where every project becomes a masterpiece. With
             precision craftsmanship and creative flair, we elevate homes,
             offices, and lives. From concept to completion, our passion shines

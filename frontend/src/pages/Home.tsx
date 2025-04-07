@@ -42,11 +42,10 @@ export default function Home() {
             stiffness: 100,
             damping: 15,
           }}
-          className="w-full md:w-[60%] flex flex-col items-center md:items-start justify-between text-center gap-y-6 md:gap-y-0 md:text-start "
+          className="w-full md:w-[60%] flex flex-col items-center md:items-start justify-between text-center gap-y-6 md:text-start "
         >
           <div>
-            <h2 className="font-bold text-[31px] min-h-[60%] md:text-6xl lg:text-7xl xl:text-9xl">
-              {" "}
+            <h2 className="font-bold min-h-[60%] text-[50px] sm:text-7xl lg:text-8xl xl:text-9xl">
               Transform Your Space with Midas Touch
             </h2>
           </div>
@@ -82,11 +81,25 @@ export default function Home() {
       <Home_Project />
       <Home_Work />
       <section className="px-[5vw] pt-[50px] min-h-fit h-fit md:grid grid-cols-1 md:grid-cols-2">
-        <div className="col-span-1 flex-grow min-h-fit pt-[4vh] flex flex-col pl-[2vw]">
-          <h2 className="text-[120px] w-full md:text-[180px] lg:text-[220px] -mt-10 font-bold flex justify-center md:justify-start items-start overflow-hidden text-center md:text-start">
-            4.5
+        <div className="col-span-1 flex-grow min-h-fit pt-[4vh] flex flex-col pl-[2vw] ">
+          <h2 className="w-full font-bold flex justify-center md:justify-start items-start text-[120px] md:text-[180px] lg:text-[220px] xl:text-[400px] -mt-10 text-[#3076bb] relative leading-none">
+            4.
+            <span className="relative inline-block">
+              5
+              <div className="absolute -top-6 -right-6 w-12 h-12 flex items-center justify-center rounded-full bg-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-8 h-8 text-[#3076bb]"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2l2.9 6.9L22 9.7l-5 5 1.2 7.3L12 18l-6.2 4 1.2-7.3-5-5 7.1-0.8L12 2z" />
+                </svg>
+              </div>
+            </span>
           </h2>
-          <p className="font-bold md:w-[75%] flex justify-center text-5xl text-center">
+
+          <p className="font-bold md:w-[75%] flex justify-center text-5xl xl:text-8xl text-center">
             With over 25 projects completed
           </p>
         </div>
@@ -134,21 +147,21 @@ export default function Home() {
           );
         })}
       </section>
-      <section className="px-[5vw] flex flex-col gap-y-6 md:gap-y-0 md:flex-row justify-between pb-10">
-        <div className="w-full flex justify-center mt-10 md:mt-0 rounded-xl">
-          <div className="w-full rounded-xl relative h-full">
+      <section className="px-[5vw] flex flex-col w-full gap-y-6 md:gap-y-0 md:flex-row justify-between pb-10 xl:gap-x-20">
+        <div className="max-w-[60%] flex justify-center h-full mt-10 md:mt-0 rounded-xl">
+          <div className=" rounded-xl w-fit relative h-full">
             <img
               style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
               src="/home6.jpeg"
               alt="img6"
-              className="w-[80%] md:w-full rounded-xl h-full object-cover"
+              className="w-[80%] md:w-full rounded-xl object-cover"
             />
             <div className="bg-white/60 w-14 aspect-square rounded-xl absolute top-2 left-2">
               <img src="/Logo.png" alt="Logo" className="w-full" />
             </div>
           </div>
         </div>
-        <div className="min-h-fit">
+        <div className="min-h-fit w-[30%] flex justify-start">
           <Contact_Main />
         </div>
       </section>
