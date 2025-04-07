@@ -2,9 +2,12 @@ import { motion } from "framer-motion";
 import Contact_Button from "../components/Contact_Button";
 import Footer_Link from "../components/Footer_Link";
 import Title_With_Contact from "../components/Title_With_Contact";
-import Service_Main from "../components/Service_Main";
-import { HowWeWork, OurUsp, PeopleThink } from "../lib/content";
+import { PeopleThink } from "../lib/content";
 import Contact_Main from "../components/Contact_Main";
+import Home_Services from "../components/Home/Home_Services";
+import Home_Project from "../components/Home/Home_Project";
+import Home_Work from "../components/Home/Home_Work";
+import Home_USP from "../components/Home/Home_USP";
 
 const slideVariants = {
   initial: { x: "100%", opacity: 0 }, // Start offscreen right
@@ -51,111 +54,9 @@ export default function Home() {
           />
         </div>
       </section>
-      <div className="mt-10 px-[5vw]">
-        <Title_With_Contact title="Our Services" />
-      </div>
-      <section className="my-10 px-[5vw] ">
-        <Service_Main />
-      </section>
-      <div className="mt-10 px-[5vw]">
-        <Title_With_Contact title="Recent Projects" />
-      </div>
-      <section className="min-h-fit h-[550px] md:flex gap-x-6 xl:gap-x-16 px-6 sm:px-12 lg:px-[5vw] py-16">
-        <div className="w-full h-[70%] md:h-full md:w-[60%] rounded-xl">
-          <div className="w-full rounded-xl relative h-full">
-            <img
-              src="/home2.jpeg"
-              alt="project1"
-              className="w-full rounded-xl h-full object-cover"
-            />
-            <div className="bg-white/60 w-14 aspect-square rounded-xl absolute top-2 left-2">
-              <img src="/Logo.png" alt="Logo" className="w-full" />
-            </div>
-          </div>
-
-          <div>
-            <p className="font-semibold poppins text-xl">
-              USU Swaner Preserve and Ecocenter
-            </p>
-            <p className="font-normal poppins text-lg">Logan, UT</p>
-          </div>
-        </div>
-        <div className="w-full md:w-[44%] flex flex-col justify-start md:gap-y-4 scale-75">
-          <h3 className="w-full min-h-fit flex justify-center font-bold text-[100px] mt-10 sm:mt-0 md:-mt-20 md:text-[200px] xl:text-[280px]">
-            10+
-          </h3>
-          <h5 className="font-bold text-4xl md:text-5xl xl:text-6xl text-center">
-            Yeas of architecture, planning, design
-          </h5>
-        </div>
-      </section>
-      <section className="min-h-fit h-[450px] flex flex-col gap-y-28 md:gap-y-20 md:grid grid-cols-3 gap-x-6 xl:gap-x-16 px-6 sm:px-12 lg:px-[5vw] pb-28 md:pb-16 md:py-16">
-        <div className="w-full col-span-2 h-[70%] rounded-xl">
-          <div className="w-full rounded-xl relative h-full">
-            <img
-              src="/home3.png"
-              alt="project1"
-              className="w-full rounded-xl h-full object-cover"
-            />
-            <div className="bg-white/60 w-14 aspect-square rounded-xl absolute top-2 left-2">
-              <img src="/Logo.png" alt="Logo" className="w-full" />
-            </div>
-          </div>
-
-          <div>
-            <p className="font-semibold poppins text-xl">
-              USU Swaner Preserve and Ecocenter
-            </p>
-            <p className="font-normal poppins text-lg">Logan, UT</p>
-          </div>
-        </div>
-        <div className="w-full col-span-1 h-[70%] rounded-xl">
-          <div className="w-full rounded-xl relative h-full">
-            <img
-              src="/home4.jpeg"
-              alt="project1"
-              className="w-full rounded-xl h-full object-cover"
-            />
-            <div className="bg-white/60 w-14 aspect-square rounded-xl absolute top-2 left-2">
-              <img src="/Logo.png" alt="Logo" className="w-full" />
-            </div>
-          </div>
-          <div>
-            <p className="font-semibold poppins text-xl">
-              USU Swaner Preserve and Ecocenter
-            </p>
-            <p className="font-normal poppins text-lg">Logan, UT</p>
-          </div>
-        </div>
-      </section>
-      <section className="bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] mx-6 sm:mx-12 rounded-xl pb-16 lg:mx-[5vw] px-[3vw] min-h-fit h-screen">
-        <div className="flex w-full flex-col gap-y-4 md:gap-y-0 md:flex-row justify-between mb-10">
-          <div className="flex flex-col gap-2 bg-white md:w-[50%]">
-            <h3 className="font-bold text-center md:text-start text-6xl">
-              How we Work
-            </h3>
-            <p className="text-[#201F1D] text-center md:text-start font-normal leading-8">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been.
-            </p>
-          </div>
-          <div className="md:w-full h-full flex justify-center md:justify-end items-start">
-            <Contact_Button />
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 min-h-fit lg:grid-cols-3 gap-6">
-          {HowWeWork.map((card, index) => {
-            return (
-              <Card
-                key={index}
-                index={index + 1}
-                title={card.title}
-                para={card.para}
-              />
-            );
-          })}
-        </div>
-      </section>
+      <Home_Services />
+      <Home_Project />
+      <Home_Work />
       <section className="px-[5vw] pt-[50px] min-h-fit h-fit md:grid grid-cols-1 md:grid-cols-2">
         <div className="col-span-1 flex-grow min-h-fit pt-[4vh] flex flex-col pl-[2vw]">
           <h2 className="text-[120px] w-full md:text-[180px] lg:text-[220px] -mt-10 font-bold flex justify-center md:justify-start items-start overflow-hidden text-center md:text-start">
@@ -193,32 +94,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] mx-6 sm:mx-12 rounded-xl pb-16 lg:mx-[5vw] px-[3vw] min-h-fit ">
-        <div className="flex w-full flex-col gap-y-4 md:gap-y-0 md:flex-row justify-between mb-10">
-          <div className="flex flex-col gap-2 bg-white md:w-[50%]">
-            <h3 className="font-bold text-6xl">Our USP</h3>
-            <p className="text-[#201F1D] font-normal leading-8">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been.
-            </p>
-          </div>
-          <div>
-            <Contact_Button />
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 min-h-fit lg:grid-cols-3 gap-6">
-          {OurUsp.map((card, index) => {
-            return (
-              <Card
-                key={index}
-                index={index + 1}
-                title={card.title}
-                para={card.para}
-              />
-            );
-          })}
-        </div>
-      </section>
+      <Home_USP />
       <div className="mt-10 px-[5vw]">
         <Title_With_Contact title="What people thinks" />
       </div>
@@ -256,30 +132,7 @@ export default function Home() {
   );
 }
 
-function Card({
-  index,
-  title,
-  para,
-}: {
-  index: number;
-  title: string;
-  para: string;
-}) {
-  return (
-    <article
-      style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
-      className="rounded-t-[120px] bg-white min-h-full p-5 pt-10 pl-10 m-3 rounded-b-xl"
-    >
-      <div className="flex flex-col gap-4 items-start">
-        <h3 className="font-bold text-4xl lg:text-6xl leading-[70px] ">
-          0{index}
-        </h3>
-        <h4 className="font-semibold text-lg lg:text-2xl leading-8">{title}</h4>
-        <p className="font-normal text-[#4F4F4F] lg:text-[16px]">{para}</p>
-      </div>
-    </article>
-  );
-}
+
 
 function Thoughts({
   name,
