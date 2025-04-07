@@ -38,16 +38,16 @@ export default function Contact_Button({
             <path
               d="M15 25L25 15"
               stroke="#3076BB"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M15 15H25V25"
               stroke="#3076BB"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </g>
         </svg>

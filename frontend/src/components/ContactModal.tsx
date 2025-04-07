@@ -53,9 +53,9 @@ export default function ContactModal({
             <path
               d="M7.49998 6.99998L4.50001 4.00001M4.50001 4.00001L1.5 1M4.50001 4.00001L7.50002 1M4.50001 4.00001L1.5 7.00002"
               stroke="#3076BB"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg> 
             </div>
