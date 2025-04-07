@@ -42,7 +42,7 @@ export default function ContactModal({
           onClick={(e) => e.stopPropagation()}
           className="w-full bg-white max-w-lg rounded-[30px] min-h-fit h-fit py-5 px-3 flex gap-4 flex-col justify-start items-center pt-14 relative"
         >
-            <div onClick={onClose} className=" cursor-pointer w-6 flex justify-center items-center h-6 absolute top-0 right-0 mt-5 mr-5">
+            <div onClick={onClose} className=" cursor-pointer scale-150 md:scale-100 w-6 flex justify-center items-center h-6 absolute top-0 right-0 mt-5 mr-5">
                <svg
             width="9"
             height="8"

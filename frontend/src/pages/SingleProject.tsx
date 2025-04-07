@@ -41,9 +41,9 @@ export default function SingleProject() {
         stiffness: 100,
         damping: 15,
       }}
-      className="p-4 sm:p-10 pt-24 min-h-screen md:px-20 lg:px-[120px] relative bg-white "
+      className="p-4 sm:p-10 pt-24 min-h-screen md:px-20 lg:px-[5vw] relative bg-white "
     >
-      <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold  text-start">{serviceName}</h2>
+      <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold mt-10 text-start">{serviceName}</h2>
       <section className="pr-10 sm:pl-0 grid grid-cols-4 md:mt-10 gap-4 mx-auto items-center md:mb-8">
         <div className="col-span-3">
           <img

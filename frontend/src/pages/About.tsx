@@ -22,7 +22,7 @@ export default function About() {
         stiffness: 100,
         damping: 15,
       }}
-      className="p-10 pt-24 min-h-screen md:px-20 lg:px-[120px] relative bg-white"
+      className="p-10 pt-24 min-h-screen md:px-20 lg:px-[5vw] relative bg-white"
     >
       <h2 className="text-5xl font-semibold text-start">Who we are</h2>
       <section className="xl:grid lg:grid-cols-5 mt-10 gap-4 mx-auto items-center  mb-12">

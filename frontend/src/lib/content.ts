@@ -210,3 +210,64 @@ export const ProjectsList = [
     ],
   },
 ];
+
+export const HowWeWork = [
+  {
+    title: "Consultation",
+    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  },
+  {
+    title: "Site Visit",
+    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  },
+  {
+    title: "Design Suggestion",
+    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  },
+  {
+    title: "Material Selection",
+    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  },
+  {
+    title: "Quotation",
+    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  },
+  {
+    title: "Work Commencement",
+    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  },
+];
+
+export const OurUsp = [
+  {
+    title: "Low TAT",
+    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  },
+  {
+    title: "Time Delivery",
+    para: "Is dependent on Change of Design Timely Approval.",
+  },
+  {
+    title: "Availability of Materials",
+    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  },
+];
+
+export const PeopleThink = [
+  {
+    name:"Rohit Ghosh",
+    profession:"ICICI Bank Manager",
+    para:" The team's attention to detail and creativity truly transformed his living space into a modern and inviting home. I highly recommend their services for anyone looking to upgrade their home's interior design."
+  },
+  {
+    name:"Arindam Das",
+    profession:"Self Employed",
+    para:" The team's attention to detail and creativity truly transformed his living space into a modern and inviting home. I highly recommend their services for anyone looking to upgrade their home's interior design."
+  },
+  {
+    name:"Radhika Vakharia",
+    profession:"Business",
+    para:" The team's attention to detail and creativity truly transformed his living space into a modern and inviting home. I highly recommend their services for anyone looking to upgrade their home's interior design."
+  },
+
+]

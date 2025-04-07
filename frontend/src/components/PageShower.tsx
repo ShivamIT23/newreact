@@ -6,7 +6,8 @@ export default function PageShower({
   children: string | React.ReactNode;
 }) {
   return (
-    <div className="w-[20vw] md:w-fit md:min-w-48 h-6 flex absolute top-4 left-10 md:left-24 text-sm font-normal sm:text-lg items-center gap-4">
+    <div className="w-full pl-[5vw] absolute top-4 left-2">
+      <div className="w-[20vw] md:w-fit md:min-w-48 h-6 flex absolute text-sm font-normal sm:text-lg items-center gap-4">
       <Link to="/" className="w-14 h-6 ">
         HOME
       </Link>
@@ -30,5 +31,7 @@ export default function PageShower({
         {typeof children === "string" ? children.toUpperCase() : children}
       </p>
     </div>
+    </div>
+    
   );
 }

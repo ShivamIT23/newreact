@@ -37,7 +37,7 @@ export default function Projects() {
         stiffness: 100,
         damping: 15,
       }}
-      className="p-10 pt-24 min-h-screen relative bg-white md:px-[101px]"
+      className="p-10 pt-24 min-h-screen relative bg-white md:px-[5vw]"
     >
       <div className="flex flex-col gap-4 mb-4">
         <h2 className="text-3xl md:text-5xl font-semibold text-start">What we Create</h2>

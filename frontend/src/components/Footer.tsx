@@ -7,9 +7,11 @@ import Footer_Link from "./Footer_Link";
 export default function Footer() {
   return (
     <footer className="h-[783px] min-h-fit bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] w-full max-w-[100vw] pb-20 gap-14">
+      <div className="w-full px-[5vw]">
       <Title_With_Contact title="Start a Project?" />
+      </div>
       <div className="bg-[#3076bb] h-[1px] w-[90vw] mx-auto" />
-      <div className="px-6 sm:px-16 md:px-[120px] pt-16 min-h-[238px] h-fit w-full md:flex items-center justify-between">
+      <div className="px-6 sm:px-16 md:px-[5vw] pt-16 min-h-[238px] h-fit w-full md:flex items-center justify-between">
         <section className="mb-8 md:mb-auto md:w-[390px] min-h-fit gap-4 flex flex-col  items-center md:items-start justify-start">
           <h3 className="font-semibold text-xl md:text-3xl lg:text-[40px] md:text-start text-center leading-7 md:leading-[48px]">
             Support is available 24 hours
@@ -83,14 +85,14 @@ export default function Footer() {
           </div>
         </section>
       </div>
-      <div className="px-10 md:px-[101px] pt-16 min-h-[42px] h-fit w-full flex gap-8 md:gap-2 flex-col md:flex-row items-center justify-between pb-10">
+      <div className="px-10 md:px-[5vw] pt-16 min-h-[42px] h-fit w-full flex gap-8 md:gap-2 flex-col md:flex-row items-center justify-between pb-10">
         <div className="text-sm lg:text-xl font-semibold hidden sm:block">
           <NavLink_List />
         </div>
         <Footer_Link />
       </div>
       <div className="bg-[#3076bb] h-[1px] w-[90%] mx-auto" />
-      <div className="px-10 md:px-[120px] pt-16 min-h-[22px] h-fit w-full flex flex-col md:flex-row items-center  gap-6 md:gap-2 justify-between">
+      <div className="px-10 md:px-[5vw] pt-16 min-h-[22px] h-fit w-full flex flex-col md:flex-row items-center  gap-6 md:gap-2 justify-between">
         <div className="md:w-[292px] h-full poppins font-normal text-[16px] leading-5 flex items-center justify-center gap-2">
           <p className="w-4 text-[20px]">©</p>
           <p className="w-[97px]">Copywriting</p>

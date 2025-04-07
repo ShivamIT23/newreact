@@ -21,7 +21,7 @@ export default function Services() {
         stiffness: 100,
         damping: 15,
       }}
-      className="p-10 pt-24 min-h-screen relative bg-white md:px-20 lg:px-[101px]"
+      className="p-10 pt-24 min-h-screen relative bg-white md:px-20 lg:px-[5vw]"
     >
       <h2 className="text-3xl lg:text-5xl font-semibold  text-start">
         What we offer
