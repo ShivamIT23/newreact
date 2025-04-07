@@ -31,7 +31,19 @@ export default function Home() {
       className="min-h-screen bg-white overflow-hidden"
     >
       <section className="min-h-[60vh] h-fit bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] md:flex gap-x-6 xl:gap-x-16 px-6 sm:px-12 lg:px-[5vw] py-12">
-        <div className="w-full md:w-[60%] flex flex-col items-center md:items-start justify-between text-center gap-y-6 md:gap-y-0 md:text-start ">
+        <motion.div
+          initial={{ x: -1000, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            ease: "easeOut",
+            type: "spring",
+            mass: 1,
+            stiffness: 100,
+            damping: 15,
+          }}
+          className="w-full md:w-[60%] flex flex-col items-center md:items-start justify-between text-center gap-y-6 md:gap-y-0 md:text-start "
+        >
           <div>
             <h2 className="font-bold text-[31px] min-h-[60%] md:text-6xl lg:text-7xl">
               {" "}
@@ -44,15 +56,27 @@ export default function Home() {
           <div>
             <Footer_Link />
           </div>
-        </div>
-        <div className="w-full flex justify-center mt-10 md:mt-0 md:w-[44%] rounded-xl">
+        </motion.div>
+        <motion.div
+          initial={{ x: 1000, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            ease: "easeOut",
+            type: "spring",
+            mass: 1,
+            stiffness: 100,
+            damping: 15,
+          }}
+          className="w-full flex justify-center mt-10 md:mt-0 md:w-[44%] rounded-xl"
+        >
           <img
             style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
             src="/home1.jpeg"
             alt="img1"
             className="w-[80%] md:w-full rounded-xl h-full object-cover"
           />
-        </div>
+        </motion.div>
       </section>
       <Home_Services />
       <Home_Project />
@@ -131,8 +155,6 @@ export default function Home() {
     </motion.div>
   );
 }
-
-
 
 function Thoughts({
   name,
