@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="h-[783px] min-h-fit bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] w-full max-w-[100vw] pb-20 gap-14">
       <div className="w-full px-[5vw]">
-      <Title_With_Contact title="Start a Project?" />
+        <Title_With_Contact title="Start a Project?" />
       </div>
       <div className="bg-[#3076bb] h-[1px] w-[90vw] mx-auto" />
       <div className="px-6 sm:px-16 md:px-[5vw] pt-16 min-h-[238px] h-fit w-full md:flex items-center justify-between">
@@ -18,8 +18,8 @@ export default function Footer() {
           </h3>
           <Contact_Button />
         </section>
-        <section className="w-full md:w-[500px] overflow-hidden h-full pl-6 gap-6 lg:gap-10 flex  items-start">
-          <div className="w-1/2 min-h-fit h-[207px] flex flex-col gap-6">
+        <section className="w-full md:w-[500px] overflow-hidden h-full pl-6 gap-6 lg:gap-10 md:flex  items-start">
+          <div className="md:w-1/2 pb-10 md:pb-0 min-h-fit h-[207px] flex flex-col gap-6">
             <div className="flex flex-col gap-2 space-y-2">
               <ParaHeading>Office Address</ParaHeading>
               <ParaSentence>D15, Baishnabghata Patuli Township,</ParaSentence>
@@ -50,7 +50,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="w-1/2 min-h-fit h-[207px] flex flex-col gap-6">
+          <div className="md:w-1/2 min-h-fit h-[207px] flex flex-col gap-6">
             <div className="flex flex-col gap-2 space-y-2">
               <ParaHeading>Factory Address</ParaHeading>
               <ParaSentence>
@@ -114,5 +114,9 @@ function ParaHeading({ children }: { children: React.ReactNode }) {
 }
 
 function ParaSentence({ children }: { children: React.ReactNode }) {
-  return <p className="overflow-hidden whitespace-nowrap font-light text-sm lg:text-lg flex">{children}</p>;
+  return (
+    <p className="overflow-hidden whitespace-nowrap font-light text-sm lg:text-lg flex">
+      {children}
+    </p>
+  );
 }
