@@ -107,7 +107,7 @@ export default function Services() {
         })}
       </section>
       <PageShower>
-        <span className="pr-2"> SERVICES </span>{" "}
+        <span className="pr-2"> SERVICES </span>
         <svg
           width="23"
           height="9"

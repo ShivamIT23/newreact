@@ -15,6 +15,7 @@ import NotFound from "./pages/NotFound";
 import { AnimatePresence } from "framer-motion";
 import SubService from "./pages/SubService";
 import SingleProject from "./pages/SingleProject";
+import ScrollToTop from "./components/ScrollToTop";
 
 function AppRoutes() {
   const location = useLocation();
@@ -40,6 +41,7 @@ function App() {
   return (
     <div className="relative min-h-fit ">
       <Router>
+        <ScrollToTop />
         <div className="min-h-fit flex flex-col items-center justify-start bg-white pt-6 ">
           <Navbar />
         </div>
