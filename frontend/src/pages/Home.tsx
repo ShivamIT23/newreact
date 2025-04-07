@@ -131,13 +131,15 @@ export default function Home() {
       <section className="bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] mx-6 sm:mx-12 rounded-xl pb-16 lg:mx-[5vw] px-[3vw] min-h-fit h-screen">
         <div className="flex w-full flex-col gap-y-4 md:gap-y-0 md:flex-row justify-between mb-10">
           <div className="flex flex-col gap-2 bg-white md:w-[50%]">
-            <h3 className="font-bold text-center md:text-start text-6xl">How we Work</h3>
+            <h3 className="font-bold text-center md:text-start text-6xl">
+              How we Work
+            </h3>
             <p className="text-[#201F1D] text-center md:text-start font-normal leading-8">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been.
             </p>
           </div>
-          <div className="w-full flex justify-center md:justify-start">
+          <div className="md:w-full h-full flex justify-center md:justify-end items-start">
             <Contact_Button />
           </div>
         </div>
@@ -175,7 +177,6 @@ export default function Home() {
               <img src="/Logo.png" alt="Logo" className="w-full" />
             </div>
           </div>
-
           <h5 className="w-full pt-1 text-center md:text-start font-semibold text-xl">
             S - Line
           </h5>
@@ -183,7 +184,7 @@ export default function Home() {
             Salt Lake City, UT
           </p>
         </div>
-        <div className="w-full col-span-2  flex flex-col justify-start items-center gap-6 mt-10 mb-20 md:mb-10">
+        <div className="w-full col-span-2  flex flex-col justify-start items-center gap-6 mt-10 mb-20">
           <h3 className="font-semibold text-3xl md:text-4xl lg:text-5xl">
             Start a Project ?
           </h3>
