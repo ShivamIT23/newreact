@@ -11,15 +11,18 @@ export default function Footer() {
         <Title_With_Contact title="Start a Project?" />
       </div>
       <div className="bg-[#3076bb] h-[1px] w-[90vw] mx-auto" />
-      <div className="px-6 sm:px-16 md:px-[5vw] pt-16 min-h-[238px] h-fit w-full md:flex items-center justify-between">
-        <section className="mb-8 md:mb-auto md:w-[390px] min-h-fit gap-4 flex flex-col  items-center md:items-start justify-start">
-          <h3 className="font-semibold text-xl md:text-3xl lg:text-[40px] md:text-start text-center leading-7 md:leading-[48px]">
+      <div className="px-6 sm:px-16 md:px-[5vw] pt-16 min-h-[238px] h-fit w-full flex flex-col lg:flex-row items-center justify-between">
+        <section className="mb-8 lg:mb-auto md:w-[390px] min-h-fit gap-4 flex flex-col items-center md:items-start justify-start">
+          <h3 className="font-semibold text-xl md:text-3xl lg:text-[40px] lg:text-start text-center leading-7 lg:leading-[48px]">
             Support is available 24 hours
           </h3>
-          <Contact_Button />
+          <div className="w-full flex lg:block justify-center">
+            <Contact_Button />
+          </div>
+          
         </section>
-        <section className="w-full md:w-[500px] overflow-hidden h-full pl-6 gap-6 lg:gap-10 md:flex  items-start">
-          <div className="md:w-1/2 pb-10 md:pb-0 min-h-fit h-[207px] flex flex-col gap-6">
+        <section className="w-full md:w-[500px] md:min-w-fit overflow-hidden h-full pr-6 gap-6 lg:gap-10 md:flex  items-start">
+          <div className="md:w-1/2 pb-10 md:pb-0 min-h-fit min-w-fit h-[207px] flex flex-col gap-6">
             <div className="flex flex-col gap-2 space-y-2">
               <ParaHeading>Office Address</ParaHeading>
               <ParaSentence>D15, Baishnabghata Patuli Township,</ParaSentence>
@@ -50,7 +53,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 min-h-fit h-[207px] flex flex-col gap-6">
+          <div className="md:w-1/2 min-h-fit min-w-fit h-[207px] flex flex-col gap-6">
             <div className="flex flex-col gap-2 space-y-2">
               <ParaHeading>Factory Address</ParaHeading>
               <ParaSentence>
@@ -85,7 +88,7 @@ export default function Footer() {
           </div>
         </section>
       </div>
-      <div className="px-10 md:px-[5vw] pt-16 min-h-[42px] h-fit w-full flex gap-8 md:gap-2 flex-col md:flex-row items-center justify-between pb-10">
+      <div className="px-10 md:px-[5vw] pt-16 min-h-[42px] h-fit w-full flex gap-8 lg:gap-2 flex-col lg:flex-row items-center justify-between pb-10">
         <div className="text-sm lg:text-xl font-semibold hidden sm:block">
           <NavLink_List />
         </div>
