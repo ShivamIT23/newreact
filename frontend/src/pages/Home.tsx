@@ -8,6 +8,7 @@ import Home_Services from "../components/Home/Home_Services";
 import Home_Project from "../components/Home/Home_Project";
 import Home_Work from "../components/Home/Home_Work";
 import Home_USP from "../components/Home/Home_USP";
+import HomeCarousel from "../components/Home/Home_Images";
 
 const slideVariants = {
   initial: { x: "100%", opacity: 0 }, // Start offscreen right
@@ -45,7 +46,7 @@ export default function Home() {
           className="w-full md:w-[60%] flex flex-col items-center md:items-start justify-between text-center gap-y-6 md:text-start "
         >
           <div>
-            <h2 className="font-bold min-h-[60%] text-[30px] sm:text-[50px] sm:text-7xl lg:text-8xl xl:text-9xl">
+            <h2 className="font-bold min-h-[60%] text-[30px] sm:text-[50px] sm:text-7xl lg:text-8xl">
               Transform Your Space with Midas Touch
             </h2>
           </div>
@@ -56,26 +57,7 @@ export default function Home() {
             <Footer_Link />
           </div>
         </motion.div>
-        <motion.div
-          initial={{ x: 1000, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{
-            duration: 0.5,
-            ease: "easeOut",
-            type: "spring",
-            mass: 1,
-            stiffness: 100,
-            damping: 15,
-          }}
-          className="w-full flex justify-center mt-10 md:mt-0 md:w-[44%] rounded-xl"
-        >
-          <img
-            style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
-            src="/home1.jpeg"
-            alt="img1"
-            className="w-[80%] md:w-full rounded-xl h-full object-cover"
-          />
-        </motion.div>
+        <HomeCarousel />
       </section>
       <Home_Services />
       <Home_Project />
