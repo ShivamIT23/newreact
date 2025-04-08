@@ -148,7 +148,7 @@ export default function Home() {
         })}
       </section>
       <section className="px-[5vw] flex flex-col w-full gap-y-6 md:gap-y-0 md:flex-row justify-between pb-10 xl:gap-x-20">
-        <div className="max-w-[60%] flex justify-center h-full mt-10 md:mt-0 rounded-xl">
+        <div className="w-full md:max-w-[60%] flex justify-center h-full mt-10 md:mt-0 rounded-xl">
           <div className=" rounded-xl w-fit relative h-full">
             <img
               style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
@@ -161,7 +161,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="min-h-fit w-[30%] flex justify-start">
+        <div className="min-h-fit w-full md:w-[30%] flex justify-start">
           <Contact_Main />
         </div>
       </section>
