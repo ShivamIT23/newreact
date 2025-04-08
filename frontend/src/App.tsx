@@ -16,6 +16,8 @@ import { AnimatePresence } from "framer-motion";
 import SubService from "./pages/SubService";
 import SingleProject from "./pages/SingleProject";
 import ScrollToTop from "./components/ScrollToTop";
+import { useEffect, useState } from "react";
+import Loader from "./components/Loader";
 
 function AppRoutes() {
   const location = useLocation();
@@ -38,6 +40,20 @@ function AppRoutes() {
 }
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 1500); // ⏳ Adjust loading duration as needed
+
+    return () => clearTimeout(timeout);
+  }, []);
+
+  if (loading) {
+    return <Loader />; // 🔥 Show loader only on first load
+  }
+
   return (
     <div className="relative min-h-fit ">
       <Router>
