@@ -9,7 +9,7 @@ export default function Contact_Main() {
       <h2 className="w-[99%] md:w-[342px] min-h-fit h-[96px] text-2xl md:text-3xl lg:text-4xl font-semibold leading-[48px] text-center">
         We will be glad to contact you
       </h2>
-      <div className="w-[80%] md:w-60 min-h-fit h-8 rounded grid grid-cols-2 border border-[#3076bb] transition">
+      <div className="w-[80%] md:w-60 min-h-fit h-fit md:h-8 rounded grid grid-cols-2 border border-[#3076bb] transition">
         <button
           onClick={() => setSwitchDiv("phone")}
           className={`col-span-1 px-auto py-1 transition-all duration-300 ease-out ${

@@ -45,7 +45,7 @@ export default function Home() {
           className="w-full md:w-[60%] flex flex-col items-center md:items-start justify-between text-center gap-y-6 md:text-start "
         >
           <div>
-            <h2 className="font-bold min-h-[60%] text-[50px] sm:text-7xl lg:text-8xl xl:text-9xl">
+            <h2 className="font-bold min-h-[60%] text-[30px] sm:text-[50px] sm:text-7xl lg:text-8xl xl:text-9xl">
               Transform Your Space with Midas Touch
             </h2>
           </div>
@@ -81,15 +81,15 @@ export default function Home() {
       <Home_Project />
       <Home_Work />
       <section className="px-[5vw] pt-[50px] min-h-fit h-fit md:grid grid-cols-1 md:grid-cols-2">
-        <div className="col-span-1 flex-grow min-h-fit pt-[4vh] flex flex-col pl-[2vw] ">
-          <h2 className="w-full font-bold flex justify-center md:justify-start items-start text-[120px] md:text-[180px] lg:text-[220px] xl:text-[400px] -mt-10 text-[#3076bb] relative leading-none">
+        <div className="col-span-1 flex-grow min-h-fit  pt-[4vh] flex flex-col pl-[2vw] ">
+          <h2 className="w-full font-bold flex justify-center md:justify-start items-start text-[80px] sm:text-[120px] md:text-[180px] lg:text-[220px] xl:text-[400px] -mt-10 text-[#3076bb] relative leading-none">
             4.
             <span className="relative inline-block">
               5
               <div className="absolute -top-6 -right-6 w-12 h-12 flex items-center justify-center rounded-full bg-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-8 h-8 text-[#3076bb]"
+                  className="w-4 sm:w-8 h-4 sm:h-8 text-[#3076bb]"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -99,7 +99,7 @@ export default function Home() {
             </span>
           </h2>
 
-          <p className="font-bold md:w-[75%] flex justify-center text-5xl xl:text-8xl text-center">
+          <p className="font-bold md:w-[75%] flex justify-center text-2xl sm:text-5xl xl:text-8xl text-center">
             With over 25 projects completed
           </p>
         </div>
@@ -123,7 +123,7 @@ export default function Home() {
           </p>
         </div>
         <div className="w-full col-span-2  flex flex-col justify-start items-center gap-6 mt-10 mb-20">
-          <h3 className="font-semibold text-3xl md:text-4xl lg:text-5xl">
+          <h3 className="font-semibold text-center md:text-start text-3xl md:text-4xl lg:text-5xl">
             Start a Project ?
           </h3>
           <div className="">
@@ -181,11 +181,11 @@ function Thoughts({
   return (
     <article
       style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
-      className=" bg-white min-h-full h-fit p-5 pt-10 pl-6 m-3 rounded-xl"
+      className=" bg-white min-h-full h-fit p-5 pt-10 sm:pl-6 m-3 rounded-xl"
     >
       <div className="flex flex-col gap-4 items-start">
-        <div className="flex">
-          <div className="flex scale-90 gap-x-2 pr-4">
+        <div className="flex w-full">
+          <div className="flex w-[40%] scale-90 gap-x-2 pr-4">
             <svg
               width="35"
               height="56"
@@ -212,7 +212,7 @@ function Thoughts({
             </svg>
           </div>
           <div className="text-[#201F1D] ">
-            <h3 className="font-bold text-3xl lg:text-2xl leading-[70px] ">
+            <h3 className="font-bold text-xl sm:text-3xl lg:text-2xl sm:leading-[70px] ">
               {name}
             </h3>
             <h4 className="font-medium lg:text-lg leading-8">{profession}</h4>

@@ -21,7 +21,7 @@ export default function Home_Work() {
             <Contact_Button />
           </div>
         </div>
-        <div className="grid md:grid-cols-2 min-h-fit lg:grid-cols-3 gap-10">
+        <div className="max-w-[100vw] grid md:grid-cols-2 min-h-fit lg:grid-cols-3 gap-10">
           {HowWeWork.map((card, index) => {
             return (
               <Card
