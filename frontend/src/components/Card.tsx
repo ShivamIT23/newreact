@@ -12,7 +12,7 @@ export default function Card({
         return (
           <article
             style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
-            className="rounded-t-[120px] bg-white min-h-[400px] p-5 pt-10 pl-10 m-3 rounded-b-xl"
+            className="rounded-t-[120px] w-[90%] min-w-0 bg-white min-h-[400px] p-5 pt-10 pl-10 m-3 rounded-b-xl overflow-hidden"
           >
             <div className="flex flex-col gap-4 items-start">
               <h3 className="font-bold text-5xl lg:text-7xl leading-[70px] ">
