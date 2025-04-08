@@ -46,7 +46,7 @@ export default function Home() {
           className="w-full md:w-[60%] flex flex-col items-center md:items-start justify-between text-center gap-y-6 md:text-start "
         >
           <div>
-            <h2 className="font-bold min-h-[60%] text-[30px] sm:text-[50px] sm:text-7xl lg:text-8xl">
+            <h2 className="font-bold min-h-[60%] text-[30px] sm:text-[50px] md:text-7xl lg:text-8xl">
               Transform Your Space with Midas Touch
             </h2>
           </div>
