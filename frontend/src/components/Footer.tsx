@@ -6,7 +6,7 @@ import Footer_Link from "./Footer_Link";
 
 export default function Footer() {
   return (
-    <footer className="h-[783px] min-h-fit bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] w-full max-w-[100vw] pb-20 gap-14">
+    <footer className="h-[783px] min-h-fit h-fit bg-[linear-gradient(to_bottom,_#FFFFFF,_#F9F1E3)] w-full max-w-[100vw] pb-20 gap-14">
       <div className="w-full px-[5vw]">
         <Title_With_Contact title="Start a Project?" />
       </div>

@@ -7,7 +7,7 @@ export default function Home_Project() {
       <div className="mt-10 px-[5vw]">
         <Title_With_Contact title="Recent Projects" />
       </div>
-      <section className="min-h-fit h-[550px] md:flex gap-x-6 xl:gap-x-16 px-6 sm:px-12 lg:px-[5vw] py-16">
+      <section className="min-h-fit h-fit md:h-[550px] md:flex gap-x-6 xl:gap-x-16 px-6 sm:px-12 lg:px-[5vw] py-16">
         <div className="w-full h-[70%] md:h-full md:w-[60%] rounded-xl">
           <div className="w-full rounded-xl relative h-full">
             <img
