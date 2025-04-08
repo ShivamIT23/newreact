@@ -24,16 +24,16 @@ export default function About() {
       }}
       className="p-10 pt-24 min-h-screen md:px-20 lg:px-[5vw] relative bg-white"
     >
-      <h2 className="text-5xl font-semibold text-start">Who we are</h2>
-      <section className="xl:grid lg:grid-cols-5 mt-10 gap-4 mx-auto items-center  mb-12">
-        <div className="col-span-3 mt-20 mb-10 xl:mb-0 h-[110%] flex items-start">
+      <h2 className="text-5xl font-semibold text-start h-[15vh]">Who we are</h2>
+      <section className="flex flex-col lg:flex-row items-start mt-10 gap-4 mx-auto  mb-12">
+        <div className="lg:w-[60%] -mt-6 w-full mb-10 xl:mb-0 h-[100%] flex items-start">
           <img
-            className="w-full h-[75%] object-cover rounded-[24px] shadow-md"
+            className="w-full h-full object-cover rounded-[24px] shadow-md"
             src="/testImg1.jpeg"
             alt="Main Img"
           />
         </div>
-        <div className="col-span-2">
+        <div className="w-full lg:w-[40%]">
           <p className="font-normal mb-6 -mt-6 xl:mb-0 lg:text-lg leading-[140%] text-black">
             Midas Touch—where every project becomes a masterpiece. With
             precision craftsmanship and creative flair, we elevate homes,
