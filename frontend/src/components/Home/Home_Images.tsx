@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react"; // Optional: You can replace this with any SVG
 
-const images = ["/home1.jpeg", "/home10.jpeg", "/home11.jpeg"];
+const images = ["/home2.jpg", "/home3.jpg", "/home4.jpg"];
 
 export default function HomeCarousel() {
   const [index, setIndex] = useState(0);

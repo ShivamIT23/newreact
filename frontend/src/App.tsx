@@ -18,6 +18,7 @@ import SingleProject from "./pages/SingleProject";
 import ScrollToTop from "./components/ScrollToTop";
 import { useEffect, useState } from "react";
 import Loader from "./components/Loader";
+import WhatsappIcon from "./components/WhatsappIcon";
 
 function AppRoutes() {
   const location = useLocation();
@@ -63,6 +64,16 @@ function App() {
         </div>
         <AppRoutes />
         <Footer />
+        <div className="fixed w-10 h-10 z-[999] bottom-10 right-1 md:right-4 xl:right-6">
+          <a
+            href="https://wa.me/918910819704"
+            target="_blank"
+          >
+            <button className="w-10 h-10">
+              <WhatsappIcon />
+            </button>
+          </a>
+        </div>
       </Router>
     </div>
   );

@@ -95,14 +95,13 @@ export default function SingleProject() {
               <img
                 src={img.src}
                 alt={img.title}
-                className="w-full h-[500px] object-cover rounded-2xl"
+                className="w-full h-[500px] md:h-[800px] object-cover rounded-2xl"
               />
               <div className="bg-white/60 w-14 aspect-square rounded-xl absolute top-2 left-2">
               <img src="/Logo.png" alt="Logo" className="w-full" />
               </div>
-              
-              <p className="mt-2 text-[#201F1D] font-semibold">{img.title}</p>
-              <p className="text-sm text-[#4F4F4F]">{detail.location}</p>
+              {/* <p className="mt-2 text-[#201F1D] font-semibold">{img.title}</p>
+              <p className="text-sm text-[#4F4F4F]">{detail.location}</p> */}
             </div>
           );
         })}

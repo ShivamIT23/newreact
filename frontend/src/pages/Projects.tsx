@@ -48,7 +48,7 @@ export default function Projects() {
           experience of contemporary conditions set within a given frame.
         </p>
       </div>
-      <section className="flex flex-col mt-10 gap-y-6 mx-auto">
+      <section className="flex flex-col mt-10 gap-y-3 mx-auto">
         {/* First row: 3 items */}
         <div className="grid grid-cols-1 w-full md:grid-cols-4 gap-4 mb-4">
           <div className="col-span-1">
@@ -85,10 +85,10 @@ const Card = ({ card }: { card: ProjectType }) => (
       alt={card.title}
       className="w-full overflow-x-hidden rounded-xl md:h-[75%] object-cover"
     />
-    <div className="p-3 text-sm">
+    {/* <div className="p-3 text-sm">
       <p className="text-gray-500">{card.year}</p>
       <p className="font-semibold">{card.title}</p>
       <p className="text-blue-500">{card.location}</p>
-    </div>
+    </div> */}
   </Link>
 );

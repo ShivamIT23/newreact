@@ -97,12 +97,12 @@ export default function Home() {
               <img src="/Logo.png" alt="Logo" className="w-full" />
             </div>
           </div>
-          <h5 className="w-full pt-1 text-center md:text-start font-semibold text-xl">
+          {/* <h5 className="w-full pt-1 text-center md:text-start font-semibold text-xl">
             S - Line
           </h5>
           <p className="w-full text-center md:text-start font-normal text-lg">
             Salt Lake City, UT
-          </p>
+          </p> */}
         </div>
         <div className="w-full col-span-2  flex flex-col justify-start items-center gap-6 mt-10 mb-20">
           <h3 className="font-semibold text-center md:text-start text-3xl md:text-4xl lg:text-5xl">

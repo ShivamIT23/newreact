@@ -1,4 +1,3 @@
-
 import Title_With_Contact from "../Title_With_Contact";
 
 export default function Home_Project() {
@@ -19,13 +18,12 @@ export default function Home_Project() {
               <img src="/Logo.png" alt="Logo" className="w-full" />
             </div>
           </div>
-
-          <div>
+          {/* <div>
             <p className="font-semibold poppins text-xl">
               USU Swaner Preserve and Ecocenter
             </p>
             <p className="font-normal poppins text-lg">Logan, UT</p>
-          </div>
+          </div> */}
         </div>
         <div className="w-full md:w-[44%] flex flex-col justify-start md:gap-y-4 scale-75">
           <h3 className="w-full min-h-fit flex justify-center font-bold text-[100px] mt-10 sm:mt-0 md:-mt-20 md:text-[200px] xl:text-[280px]">
@@ -48,13 +46,12 @@ export default function Home_Project() {
               <img src="/Logo.png" alt="Logo" className="w-full" />
             </div>
           </div>
-
-          <div>
+          {/* <div>
             <p className="font-semibold poppins text-xl">
               USU Swaner Preserve and Ecocenter
             </p>
             <p className="font-normal poppins text-lg">Logan, UT</p>
-          </div>
+          </div> */}
         </div>
         <div className="w-full col-span-1 h-[70%] rounded-xl">
           <div className="w-full rounded-xl relative h-full">
@@ -67,12 +64,12 @@ export default function Home_Project() {
               <img src="/Logo.png" alt="Logo" className="w-full" />
             </div>
           </div>
-          <div>
+          {/* <div>
             <p className="font-semibold poppins text-xl">
               USU Swaner Preserve and Ecocenter
             </p>
             <p className="font-normal poppins text-lg">Logan, UT</p>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
