@@ -45,14 +45,14 @@ export default function SingleProject() {
     >
       <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold mt-10 text-start">{serviceName}</h2>
       <section className="pr-10 sm:pl-0 grid grid-cols-4 md:mt-10 gap-4 mx-auto items-center md:mb-8">
-        <div className="col-span-3">
+        <div className="col-span-4">
           <img
             className="w-full rounded-[24px] shadow-md"
             src={detail.image}
             alt="Main Img"
           />
         </div>
-        <div className="col-span-1 scale-[0.7] md:scale-100 h-full items-start flex justify-between">
+        {/* <div className="col-span-1 scale-[0.7] md:scale-100 h-full items-start flex justify-between">
           <div className="flex flex-col gap-y-2 md:gap-y-6">
             <div className="flex flex-col md:gap-y-2">
               <h4 className="font-bold">LOCATION</h4>
@@ -78,7 +78,7 @@ export default function SingleProject() {
             </div>
           </div>
           <div></div>
-        </div>
+        </div> */}
         <p className="font-normal col-span-full min-w-full text-start text-lg leading-[140%] text-black flex">
           {detail.para}
         </p>

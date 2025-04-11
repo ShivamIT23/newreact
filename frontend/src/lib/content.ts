@@ -120,7 +120,25 @@ export const ProjectsList = [
     ],
   },
   {
-    title: "Central Saint Giles",
+    title: "Central Saint Giles2",
+    para: "Nanchang Wave is a landscape based community centre with a varied program forming the heart of a large residential development. The double helix structure towards the wetland area gives 360 degrees overview of the neighbourhood as one walks up to the panoramic gallery at top.",
+    image: "/home7.jpg",
+    location: "London",
+    year: "2009",
+    area: "70000", // in m square
+    client: "Vanke",
+    constructionCost: "130 mil NOK",
+    moreImg: [
+      { src: "/testImg1.jpg", title: "Front facades" },
+      { src: "/testImg2.jpg", title: "Front facades from sides" },
+      { src: "/testImg3.jpg", title: "Front facades close up" },
+      { src: "/testImg4.jpg", title: "Front facades Close up" },
+      { src: "/testImg5.jpg", title: "Front facades close up" },
+      { src: "/testImg6.jpg", title: "Front facades Close up" },
+    ],
+  },
+  {
+    title: "Central Saint Giles3",
     para: "Nanchang Wave is a landscape based community centre with a varied program forming the heart of a large residential development. The double helix structure towards the wetland area gives 360 degrees overview of the neighbourhood as one walks up to the panoramic gallery at top.",
     image: "/home3.jpg",
     location: "London",
@@ -138,25 +156,7 @@ export const ProjectsList = [
     ],
   },
   {
-    title: "Central Saint Giles",
-    para: "Nanchang Wave is a landscape based community centre with a varied program forming the heart of a large residential development. The double helix structure towards the wetland area gives 360 degrees overview of the neighbourhood as one walks up to the panoramic gallery at top.",
-    image: "/home3.jpg",
-    location: "London",
-    year: "2009",
-    area: "70000", // in m square
-    client: "Vanke",
-    constructionCost: "130 mil NOK",
-    moreImg: [
-      { src: "/testImg1.jpg", title: "Front facades" },
-      { src: "/testImg2.jpg", title: "Front facades from sides" },
-      { src: "/testImg3.jpg", title: "Front facades close up" },
-      { src: "/testImg4.jpg", title: "Front facades Close up" },
-      { src: "/testImg5.jpg", title: "Front facades close up" },
-      { src: "/testImg6.jpg", title: "Front facades Close up" },
-    ],
-  },
-  {
-    title: "Central Saint Giles",
+    title: "Central Saint Giles4",
     para: "Nanchang Wave is a landscape based community centre with a varied program forming the heart of a large residential development. The double helix structure towards the wetland area gives 360 degrees overview of the neighbourhood as one walks up to the panoramic gallery at top.",
     image: "/home4.jpg",
     location: "London",
@@ -174,7 +174,7 @@ export const ProjectsList = [
     ],
   },
   {
-    title: "Central Saint Giles",
+    title: "Central Saint Giles5",
     para: "Nanchang Wave is a landscape based community centre with a varied program forming the heart of a large residential development. The double helix structure towards the wetland area gives 360 degrees overview of the neighbourhood as one walks up to the panoramic gallery at top.",
     image: "/home5.jpg",
     location: "London",
@@ -192,7 +192,7 @@ export const ProjectsList = [
     ],
   },
   {
-    title: "Central Saint Giles",
+    title: "Central Saint Giles6",
     para: "Nanchang Wave is a landscape based community centre with a varied program forming the heart of a large residential development. The double helix structure towards the wetland area gives 360 degrees overview of the neighbourhood as one walks up to the panoramic gallery at top.",
     image: "/home6.jpg",
     location: "London",

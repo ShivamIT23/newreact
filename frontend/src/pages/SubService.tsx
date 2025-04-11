@@ -100,8 +100,8 @@ export default function Services() {
                 alt={img.title}
                 className="w-full h-[500px] object-cover rounded-2xl"
               />
-              <p className="mt-2 text-[#201F1D] font-semibold">{img.title}</p>
-              <p className="text-sm text-[#4F4F4F]">{detail.location}</p>
+              {/* <p className="mt-2 text-[#201F1D] font-semibold">{img.title}</p>
+              <p className="text-sm text-[#4F4F4F]">{detail.location}</p> */}
             </div>
           );
         })}
@@ -122,7 +122,7 @@ export default function Services() {
             fill="#3076BB"
           />
         </svg>{" "}
-        <span className="md:pl-3">{serviceName?.toUpperCase()}</span>{" "}
+        <span className="md:pl-3">{serviceName?.toUpperCase()}</span>
       </PageShower>
     </motion.div>
   );
