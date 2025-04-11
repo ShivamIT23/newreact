@@ -22,10 +22,10 @@ export default function About() {
         stiffness: 100,
         damping: 15,
       }}
-      className="p-10 pt-24 min-h-screen md:px-20 lg:px-[5vw] relative bg-white"
+      className="p-10 py-24 min-h-screen h-fit md:px-20 lg:px-[5vw] relative bg-white"
     >
       <h2 className="text-5xl font-semibold text-start h-[15vh]">Who we are</h2>
-      <section className="flex flex-col lg:flex-row items-start mt-10 gap-4 mx-auto  mb-12">
+      <section className="flex flex-col h-fit lg:flex-row items-start mt-10 gap-4 mx-auto  mb-12">
         <div className="lg:w-[60%] -mt-6 w-full mb-10 xl:mb-0 h-[100%] flex items-start">
           <img
             className="w-full h-full object-cover rounded-[24px] shadow-md"
@@ -65,7 +65,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col md:grid grid-cols-2 gap-y-10 md:gap-y-6 gap-6 pb-6">
+      <section className="flex flex-col md:grid h-fit grid-cols-2 gap-y-10 md:gap-y-6 gap-6 pb-6">
         <div className="col-span-1 flex flex-col gap-6">
           <h3 className="text-5xl font-semibold text-start">Our Vision</h3>
           <img

@@ -45,42 +45,46 @@ export default function SingleProject() {
     >
       <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold mt-10 text-start">{serviceName}</h2>
       <section className="pr-10 sm:pl-0 grid grid-cols-4 md:mt-10 gap-4 mx-auto items-center md:mb-8">
-        <div className="col-span-4">
+        <div className="col-span-3">
           <img
             className="w-full rounded-[24px] shadow-md"
             src={detail.image}
             alt="Main Img"
           />
         </div>
-        {/* <div className="col-span-1 scale-[0.7] md:scale-100 h-full items-start flex justify-between">
+        <div className="col-span-1 scale-[0.7] md:scale-100 h-full items-start flex justify-between">
           <div className="flex flex-col gap-y-2 md:gap-y-6">
             <div className="flex flex-col md:gap-y-2">
               <h4 className="font-bold">LOCATION</h4>
-              <p className="text-[#201F1D] font-normal">{detail.location}</p>
+              <p className="text-[#201F1D] font-normal">
+                {/* {detail.location} */}
+                </p>
             </div>
             <div className="flex flex-col md:gap-y-2">
               <h4 className="font-bold">AREA</h4>
-              <p className="text-[#201F1D]">{detail.area}</p>
+              <p className="text-[#201F1D]">
+                {/* {detail.area} */}
+                </p>
             </div>
             <div className="flex flex-col md:gap-y-2">
               <h4 className="font-bold max-w-full overflow-hidden">CONSTRUCTION COST</h4>
-              <p className="text-[#201F1D]">{detail.constructionCost}</p>
+              {/* <p className="text-[#201F1D]">{detail.constructionCost}</p> */}
             </div>
           </div>
           <div className="hidden sm:flex flex-col gap-y-2 md:gap-y-6">
             <div className="flex flex-col md:gap-y-2">
               <h4 className="font-bold">YEAR</h4>
-              <p className="text-[#201F1D]">{detail.year}</p>
+              {/* <p className="text-[#201F1D]">{detail.year}</p> */}
             </div>
             <div className="flex flex-col md:gap-y-2">
               <h4 className="font-bold">CLIENT</h4>
-              <p className="text-[#201F1D]">{detail.client}</p>
+              {/* <p className="text-[#201F1D]">{detail.client}</p> */}
             </div>
           </div>
           <div></div>
-        </div> */}
+        </div>
         <p className="font-normal col-span-full min-w-full text-start text-lg leading-[140%] text-black flex">
-          {detail.para}
+          {/* {detail.para} */}
         </p>
       </section>
       <Title_With_Contact title="Gallery" />
