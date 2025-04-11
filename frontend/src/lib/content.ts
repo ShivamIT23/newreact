@@ -262,12 +262,12 @@ export const PeopleThink = [
   {
     name:"Arindam Das",
     profession:"Self Employed",
-    para:" The team's attention to detail and creativity truly transformed his living space into a modern and inviting home. I highly recommend their services for anyone looking to upgrade their home's interior design."
+    para:" Working with the team was a seamless experience. They understood my vision and executed it flawlessly, making my space both functional and aesthetically pleasing. Their professionalism and dedication are unmatched."
   },
   {
     name:"Radhika Vakharia",
     profession:"Business",
-    para:" The team's attention to detail and creativity truly transformed his living space into a modern and inviting home. I highly recommend their services for anyone looking to upgrade their home's interior design."
+    para:" Their design sense and execution brought a refreshing vibe to my workspace. The process was smooth, and the results exceeded expectations. I’m truly impressed with their commitment to quality and timelines."
   },
 
 ]
