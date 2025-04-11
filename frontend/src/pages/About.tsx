@@ -29,7 +29,7 @@ export default function About() {
         <div className="lg:w-[60%] -mt-6 w-full mb-10 xl:mb-0 h-[100%] flex items-start">
           <img
             className="w-full h-full object-cover rounded-[24px] shadow-md"
-            src="/home4.jpg"
+            src="/home5.jpg"
             alt="Main Img"
           />
         </div>
