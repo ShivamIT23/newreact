@@ -12,7 +12,7 @@ export default function Home_Work() {
               How we Work
             </h3>
             <p className="text-[#201F1D] text-center md:text-start font-normal leading-8">
-              We Work For The benefit Of People
+            We work through a structured process—understanding client needs, planning thoroughly, executing with precision, and delivering results efficiently.
             </p>
           </div>
           <div className="md:w-[40%] flex min-w-0 justify-center md:justify-end items-start">

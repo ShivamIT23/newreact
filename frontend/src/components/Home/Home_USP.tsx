@@ -10,8 +10,7 @@ export default function Home_USP() {
       <div className="flex flex-col gap-2 min-h-[200px] bg-white md:w-[40%] p-4">
         <h3 className="font-bold text-6xl">Our USP</h3>
         <p className="text-[#201F1D] font-normal leading-8">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been.
+        Our USP lies in delivering personalized, high-quality solutions with efficiency, reliability, and a client-first approach.
         </p>
       </div>
       <div>

@@ -214,42 +214,42 @@ export const ProjectsList = [
 export const HowWeWork = [
   {
     title: "Consultation",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    para: "Consultation helps individuals and businesses make informed decisions by providing expert advice tailored to specific needs.",
   },
   {
     title: "Site Visit",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    para: "Site visit offers firsthand insight into project conditions, ensuring accurate planning, assessment, and effective decision-making.",
   },
   {
     title: "Design Suggestion",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    para: "Design suggestion provides creative and functional ideas to enhance aesthetics, usability, and overall user experience effectively.",
   },
   {
     title: "Material Selection",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    para: "Material selection ensures durability, functionality, and aesthetics by choosing the right resources suited to project requirements.",
   },
   {
     title: "Quotation",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    para: "Quotation outlines estimated costs and services, giving clients a clear understanding before project initiation or agreement.",
   },
   {
     title: "Work Commencement",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    para: "Work commencement marks the official start of a project, ensuring all preparations and plans are in place.",
   },
 ];
 
 export const OurUsp = [
   {
     title: "Low TAT",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    para: "Low TAT (Turnaround Time) ensures faster delivery of services without compromising quality or client expectations.",
   },
   {
     title: "Time Delivery",
-    para: "Is dependent on Change of Design Timely Approval.",
+    para: "Time delivery guarantees that projects or services are completed and handed over within the agreed schedule.",
   },
   {
     title: "Availability of Materials",
-    para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    para: "Availability of materials ensures uninterrupted workflow and timely project execution by maintaining necessary resources on hand.",
   },
 ];
 
