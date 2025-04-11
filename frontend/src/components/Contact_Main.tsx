@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Contact_Button from "./Contact_Button";
 import { AnimatePresence, motion } from "framer-motion";
+import WhatsappIcon from "./WhatsappIcon";
 
 export default function Contact_Main() {
   const [switchDiv, setSwitchDiv] = useState("phone");
@@ -68,8 +69,17 @@ export default function Contact_Main() {
             )}
           </AnimatePresence>
         </div>
+        <div className="flex justify-evenly w-full">
+          <Contact_Button />
+          <div className=" w-12 h-12 ">
+            <a href="https://wa.me/918910819704" target="_blank">
+              <button className="w-12 h-12">
+                <WhatsappIcon />
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
-      <Contact_Button />
     </section>
   );
 }

@@ -64,12 +64,12 @@ function App() {
         </div>
         <AppRoutes />
         <Footer />
-        <div className="fixed w-10 h-10 z-[999] bottom-10 right-1 md:right-4 xl:right-6">
+        <div className="fixed w-12 h-12 z-[999] bottom-10 right-1 md:right-4 xl:right-6">
           <a
             href="https://wa.me/918910819704"
             target="_blank"
           >
-            <button className="w-10 h-10">
+            <button className="w-12 h-12">
               <WhatsappIcon />
             </button>
           </a>
