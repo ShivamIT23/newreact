@@ -59,7 +59,7 @@ export default function Home_Project() {
         <div className="w-full col-span-1 h-[70%] rounded-xl">
           <div className="w-full rounded-xl relative h-full">
             <img
-              src="/home4.jpeg"
+              src="/home4.jpg"
               alt="project1"
               className="w-full rounded-xl h-full object-cover"
             />
