@@ -51,6 +51,30 @@ export default function Footer() {
                 <ParaSentence>8777838100/ 9800301641</ParaSentence>
               </div>
             </div>
+            <div className="flex flex-col gap-2 space-y-2">
+              <ParaHeading>
+              Sanjib Chakraborty
+                <ParaSentence> &#40;Senior Supervisor &#41;</ParaSentence>
+              </ParaHeading>
+              <div className="flex items-center">
+                <svg
+                  width="13.5"
+                  height="13.5"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.12685 2.19291C5.89905 1.62343 5.34749 1.25 4.73413 1.25H2.67105C1.88623 1.25 1.25 1.88607 1.25 2.6709C1.25 9.34192 6.65808 14.75 13.3291 14.75C14.1139 14.75 14.75 14.1137 14.75 13.3289L14.7503 11.2655C14.7503 10.6521 14.377 10.1006 13.8075 9.87285L11.8302 9.0822C11.3186 8.87758 10.7362 8.96967 10.313 9.32239L9.80264 9.74801C9.20665 10.2447 8.32972 10.2052 7.78115 9.65659L6.34417 8.21829C5.79559 7.66972 5.75505 6.7935 6.25171 6.19751L6.67725 5.68722C7.02996 5.26397 7.12287 4.68137 6.91825 4.16982L6.12685 2.19291Z"
+                    stroke="#3076BB"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                <ParaSentence>9681166546/7003428323</ParaSentence>
+              </div>
+            </div>
           </div>
           <div className="md:w-1/2 min-h-fit min-w-fit h-[207px] flex flex-col gap-6">
             <div className="flex flex-col gap-2 space-y-2">
@@ -82,6 +106,29 @@ export default function Footer() {
                   />
                 </svg>
                 <ParaSentence>9903514562/9143253562</ParaSentence>
+              </div>
+            </div>
+            <div className="flex flex-col gap-2 space-y-2">
+              <ParaHeading>
+              Amartya Basu<ParaSentence> &#40;Director&#41;</ParaSentence>
+              </ParaHeading>
+              <div className="flex items-center">
+                <svg
+                  width="13.5"
+                  height="13.5"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.12685 2.19291C5.89905 1.62343 5.34749 1.25 4.73413 1.25H2.67105C1.88623 1.25 1.25 1.88607 1.25 2.6709C1.25 9.34192 6.65808 14.75 13.3291 14.75C14.1139 14.75 14.75 14.1137 14.75 13.3289L14.7503 11.2655C14.7503 10.6521 14.377 10.1006 13.8075 9.87285L11.8302 9.0822C11.3186 8.87758 10.7362 8.96967 10.313 9.32239L9.80264 9.74801C9.20665 10.2447 8.32972 10.2052 7.78115 9.65659L6.34417 8.21829C5.79559 7.66972 5.75505 6.7935 6.25171 6.19751L6.67725 5.68722C7.02996 5.26397 7.12287 4.68137 6.91825 4.16982L6.12685 2.19291Z"
+                    stroke="#3076BB"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                <ParaSentence>8910819704</ParaSentence>
               </div>
             </div>
           </div>

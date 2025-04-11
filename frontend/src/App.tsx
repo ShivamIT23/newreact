@@ -55,7 +55,7 @@ function App() {
   }
 
   return (
-    <div className="relative min-h-fit ">
+    <div className="relative min-h-fit h-fit ">
       <Router>
         <ScrollToTop />
         <div className="min-h-fit flex flex-col items-center justify-start bg-white pt-6 ">

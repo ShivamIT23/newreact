@@ -69,7 +69,7 @@ export default function About() {
         <div className="col-span-1 flex flex-col gap-6">
           <h3 className="text-5xl font-semibold text-start">Our Vision</h3>
           <img
-            src="/testImg2.jpeg"
+            src="/testImg2.jpg"
             alt="visionImg"
             className="w-full rounded-[24px]"
           />
@@ -85,7 +85,7 @@ export default function About() {
         <div className="col-span-1 flex flex-col gap-6">
           <h3 className="text-5xl font-semibold text-start">Our Mission</h3>
           <img
-            src="/testImg2.jpeg"
+            src="/home4.jpg"
             alt="visionImg"
             className="w-full rounded-[24px]"
           />

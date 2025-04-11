@@ -11,7 +11,7 @@ export default function Home_Project() {
         <div className="w-full h-[70%] md:h-full md:w-[60%] rounded-xl">
           <div className="w-full rounded-xl relative h-full">
             <img
-              src="/home2.jpeg"
+              src="/home2.jpg"
               alt="project1"
               className="w-full rounded-xl h-full object-cover"
             />
@@ -32,7 +32,7 @@ export default function Home_Project() {
             10+
           </h3>
           <h5 className="font-bold text-4xl md:text-5xl xl:text-6xl text-center">
-            Yeas of architecture, planning, design
+            Years of architecture, planning, design
           </h5>
         </div>
       </section>
@@ -40,7 +40,7 @@ export default function Home_Project() {
         <div className="w-full col-span-2 h-[70%] rounded-xl">
           <div className="w-full rounded-xl relative h-full">
             <img
-              src="/home3.png"
+              src="/home3.jpg"
               alt="project1"
               className="w-full rounded-xl h-full object-cover"
             />

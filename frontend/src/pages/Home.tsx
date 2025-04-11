@@ -89,7 +89,7 @@ export default function Home() {
           <div className="w-full relative h-fit">
             <img
               style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
-              src="/home5.jpeg"
+              src="/home5.jpg"
               alt="img5"
               className="w-[80%] md:w-full h-auto rounded-xl  object-cover"
             />
